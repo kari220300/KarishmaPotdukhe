@@ -37,8 +37,9 @@ h1,h2{
 
 .carousel-caption h3{
     font-size:350%;
+    font-family: cursive;
     text-transform:uppercase;
-    text-shadow: 1px 1px 20px #000 ;
+    text-shadow: 1px 1px 20px white ;
     padding-bottom: 1rem ;
 }
 
@@ -143,9 +144,10 @@ hr.light{
     }
 
     .carousel-caption h3{
-        font-size:200%;
+        font-size:300%;
+        font-family: cursive;
         text-transform:uppercase;
-        text-shadow: 1px 1px 20px #000 ;
+        text-shadow: 1px 1px 20px white;
         padding-bottom:0.5rem ;
     }
 }
@@ -194,6 +196,7 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
